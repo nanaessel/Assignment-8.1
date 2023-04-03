@@ -1,0 +1,8 @@
+#!/Users/mac/Documents/final_project_chapter_7/CIDM6330/projects/APP2023/code-chapter_08_aggregate/.env/bin/python3
+# -*- coding: utf-8 -*-
+import re
+import sys
+from mypy.dmypy.client import console_entry
+if __name__ == '__main__':
+    sys.argv[0] = re.sub(r'(-script\.pyw|\.exe)?$', '', sys.argv[0])
+    sys.exit(console_entry())
